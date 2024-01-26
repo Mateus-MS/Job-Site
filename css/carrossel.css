@@ -1,0 +1,125 @@
+
+
+#carrossel{
+
+    width: 100dvw;
+    height: 30dvh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.1);
+    
+}
+
+#carrossel__holder{
+    
+    width: 85%;
+    height: 80%;
+    
+    background-color: rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#carrossel__holder__TAG{
+    
+    width: 200px;
+    height: 18%;
+
+    background-color: rgba(0, 0, 0, 0.1);
+    
+}
+
+#carrossel__holder__cards_holder{
+    
+    width: 100%;
+    height: 75%;
+
+    background-color: rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    overflow-x: hidden;
+    
+}
+
+.card{
+    
+    width: 54%;
+    height: 81%;
+    
+    padding: 3%;
+    margin-right: 28px;
+    
+    background-color: rgba(0, 0, 0, 0.1);
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.card__icon_holder{
+    
+    width: 100%;
+    height: 30%;
+    
+    background-color: rgba(0, 0, 0, 0.1);
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card__icon_holder__brand{
+    
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+.card__icon_holder__save{
+    
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    
+    background-color: rgba(0, 0, 0, 0.1);
+    
+}
+
+.card__description{
+    
+    width: 80%;
+    height: 30%;
+    
+    background-color: rgba(0, 0, 0, 0.1);
+    
+}
+
+.card__tag_holder{
+    
+    width: 100%;
+    height: 25%;
+    
+    background-color: rgba(0, 0, 0, 0.1);
+
+    display: flex;
+
+}
+
+.card__tag_holder__tag{
+    
+    width: 100px;
+    height: 100%;
+    
+    background-color: rgba(0, 0, 0, 0.1);
+    
+    margin-right: 20px;
+
+}

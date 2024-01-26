@@ -1,0 +1,209 @@
+#feed{
+    
+    width: 100dvw;
+    height: 50dvh;
+
+    background-color: var(--black);   
+
+}
+
+#feed__controller{
+    
+    width: 100%;
+    height: 18%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    
+}
+
+
+#feed__controller__holder{
+    
+    width: fit-content;
+    height: 60%;
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    
+    display: flex;
+
+}
+
+#feed__controller__holder__left{
+
+    height: 100%;
+    aspect-ratio: 1 / 1;
+
+    background-color: rgba(255, 255, 255, 0.1);
+
+}
+
+#feed__controller__holder__name{
+
+    width: 150px;
+    height: 100%;
+
+    margin: 0 20px 0 20px;
+
+    background-color: rgba(255, 255, 255, 0.1);
+
+}
+
+#feed__controller__holder__right{
+
+    height: 100%;
+    aspect-ratio: 1 / 1;
+
+    background-color: rgba(255, 255, 255, 0.1);
+
+}
+
+#feed__banner_holder{
+    
+    width: 100%;
+    height: 61%;
+
+    background-color: rgba(255, 255, 255, 0.1);
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.banner{
+    
+    width: calc(85% - 6dvw);
+    height: 10dvh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 3dvw;
+    margin-bottom: 30px;
+
+    flex-shrink: 0;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    
+}
+
+.banner__top{
+    
+    width: 100%;
+    height: 50%;
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.banner__top__info{
+    
+    height: 100%;
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    
+    display: flex;
+
+}
+
+.banner__top__info__brand{
+    
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    
+    margin-right: 20px;
+    
+}
+
+.banner__top__info__description{
+    
+    width: 230px;
+    height: 100%;
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    
+}
+
+.banner__top__save{
+    
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    
+    background-color: rgba(255, 255, 255, 0.1);
+
+}
+
+.banner__bot{
+
+    width: 100%;
+    height: 35%;
+
+    background-color: rgba(255, 255, 255, 0.1);
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.banner__bot__tag_holder{
+
+    width: 200px;
+    height: 100%;
+
+    background-color: rgba(255, 255, 255, 0.1);
+
+    display: flex;
+
+}
+
+.banner__bot__tag_holder__tag{
+
+    width: 100px;
+    height: 100%;
+
+    background-color: rgba(255, 255, 255, 0.1);
+
+    margin-right: 10px;
+
+}
+
+.banner__bot__location{
+
+    width: 150px;
+    height: 100%;
+
+    background-color: rgba(255, 255, 255, 0.1);   
+
+    display: flex;
+    justify-content: end;
+
+}
+
+.banner__bot__location__name{
+
+    width: 100px;
+    height: 100%;
+    
+    background-color: rgba(255, 255, 255, 0.1);
+
+}
+
+.banner__bot__location__icon{
+
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    margin-left: 15px;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    
+}
