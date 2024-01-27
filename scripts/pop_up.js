@@ -103,3 +103,15 @@ for(let i = 0; i < banners.length; i++){
     })
 
 }
+
+var cards = document.getElementsByClassName('card')
+
+for(let i = 0; i < cards.length; i++){
+
+    cards[i].addEventListener('click', ()=>{
+
+        create_pop_up()
+
+    })
+
+}
