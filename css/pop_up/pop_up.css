@@ -1,0 +1,26 @@
+#pop_up{
+
+    position: absolute;
+    top: 0;
+
+    width: 100dvw;
+    height: 100dvh;
+
+    backdrop-filter: blur(4px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#pop_up__holder{
+
+    width: 80%;
+    height: 80%;
+
+    background-color: white;
+
+    padding: 4dvw 4dvw 0 4dvw;
+
+}

@@ -1,0 +1,64 @@
+#pop_up__holder__top{
+
+    width: 100%;
+    height: 12%;
+
+    background-color: rgba(0, 0, 0, .1);
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#pop_up__holder__top__left{
+
+    display: flex;
+
+}
+
+#pop_up__holder__top__left__logo{
+
+    height: 100%;
+    aspect-ratio: 1 / 1;
+
+    background-color: rgba(0, 0, 0, .1);
+
+}
+
+#pop_up__holder__top__left__brand_holder{
+
+    height: 100%;
+    background-color: rgba(0, 0, 0, .1);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#pop_up__holder__top__left__brand_holder__name{
+
+    width: 160px;
+    height: 50%;
+
+    background-color: rgba(0, 0, 0, .1);
+
+}
+
+#pop_up__holder__top__left__brand_holder__star_holder{
+
+    width: 110px;
+    height: 50%;
+
+    background-color: rgba(0, 0, 0, .1);
+
+}
+
+#pop_up__holder__top__save{
+
+    height: 100%;
+    aspect-ratio: 1 / 1;
+
+    background-color: rgba(0, 0, 0, .1);
+
+}
